@@ -1,38 +1,42 @@
+body {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+}
+#root {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-image: url("seko.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  align-items: center;
+  height: inherit;
+  width: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(156, 68, 99, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal {
+  background-image: url("winx.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
